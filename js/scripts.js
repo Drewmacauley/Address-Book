@@ -1,6 +1,6 @@
 // Business Logic for AddressBook ---------
 function AddressBook() {
-  this.contacts = [],
+  this.contacts = []
   this.email = []
   this.email2 = []
   this.address = []
@@ -117,3 +117,4 @@ $(document).ready(function() {
     displayContactDetails(addressBook);
   })
 })
+// console.log(end)
