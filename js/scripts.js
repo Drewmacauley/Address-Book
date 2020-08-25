@@ -68,6 +68,14 @@ function displayContactDetails(addressBookToDisplay) {
   contactsList.html(htmlForContactInfo);
 };
 
+$("#1").click(function () {
+  $("#email-two").show();
+});
+
+$("#2").click(function () {
+  $("#address-two").show();
+});
+
 function showContact(contactId) {
   const contact = addressBook.findContact(contactId);
   $("#show-contact").show();
